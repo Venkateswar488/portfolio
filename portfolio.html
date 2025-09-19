@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p><em>Aspiring Web Developer | BCA Student</em></p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is <strong>Venkateswar Aggarwal</strong>. I am a BCA student passionate about <mark>AI, Data Science, and Web Development</mark>.</p>
+        <p>I enjoy working with <abbr title="HyperText Markup Language">HTML</abbr>, CSS, and JavaScript to create user-friendly websites.</p>
+        <hr>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ol>
+            <li>Programming Languages
+                <ul>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>Java</li>
+                </ul>
+            </li>
+            <li>Web Development
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </li>
+        </ol>
+
+        <table border="1" cellpadding="8">
+            <caption>Skill Proficiency</caption>
+            <tr>
+                <th>Skill</th>
+                <th>Level</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Intermediate</td>
+            </tr>
+        </table>
+        <hr>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <article>
+            <h3>Portfolio Website</h3>
+            <p>Created a responsive personal portfolio using <code>&lt;HTML&gt;</code>, CSS, and JavaScript.</p>
+        </article>
+        <article>
+            <h3>Data Science Project</h3>
+            <p>Analyzed real-life datasets using <kbd>Python</kbd> and Pandas.</p>
+        </article>
+        <hr>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <figure>
+            <img src="https://via.placeholder.com/200" alt="Profile Picture">
+            <figcaption>My Profile Picture</figcaption>
+        </figure>
+
+        <video controls width="300">
+            <source src="sample.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+
+        <audio controls>
+            <source src="sample.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+        <hr>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" rows="5" cols="40"></textarea><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female <br><br>
+
+            <label>Interests:</label>
+            <input type="checkbox"> Coding
+            <input type="checkbox"> Sports
+            <input type="checkbox"> Reading <br><br>
+
+            <label for="country">Choose Country:</label>
+            <select id="country">
+                <option>India</option>
+                <option>USA</option>
+                <option>UK</option>
+            </select><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+        <hr>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My Portfolio | Made with ❤️ using HTML</p>
+        <address>
+            Written by: <a href="mailto:myemail@example.com">myemail@example.com</a>
+        </address>
+    </footer>
+
+</body>
+</html>
