@@ -10,12 +10,10 @@
     <!-- Header Section -->
     <header>
         <h1>Welcome to My Portfolio</h1>
-        <p><em>Aspiring Web Developer | BCA Student</em></p>
+        <p><em>I'm a BCA Student</em></p>
         <nav>
             <ul>
                 <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -26,68 +24,15 @@
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello! My name is <strong>Venkateswar Aggarwal</strong>. I am a BCA student passionate about <mark>AI, Data Science, and Web Development</mark>.</p>
+        <p>Hello! My name is <strong>Venkateswar Aggarwal</strong>. I am a BCA student at <strong>Geeta University</strong>.</p>
         <p>I enjoy working with <abbr title="HyperText Markup Language">HTML</abbr>, CSS, and JavaScript to create user-friendly websites.</p>
         <hr>
     </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>My Skills</h2>
-        <ol>
-            <li>Programming Languages
-                <ul>
-                    <li>Python</li>
-                    <li>C</li>
-                    <li>Java</li>
-                </ul>
-            </li>
-            <li>Web Development
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-            </li>
-        </ol>
-
-        <table border="1" cellpadding="8">
-            <caption>Skill Proficiency</caption>
-            <tr>
-                <th>Skill</th>
-                <th>Level</th>
-            </tr>
-            <tr>
-                <td>HTML</td>
-                <td>Advanced</td>
-            </tr>
-            <tr>
-                <td>Python</td>
-                <td>Intermediate</td>
-            </tr>
-        </table>
-        <hr>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>My Projects</h2>
-        <article>
-            <h3>Portfolio Website</h3>
-            <p>Created a responsive personal portfolio using <code>&lt;HTML&gt;</code>, CSS, and JavaScript.</p>
-        </article>
-        <article>
-            <h3>Data Science Project</h3>
-            <p>Analyzed real-life datasets using <kbd>Python</kbd> and Pandas.</p>
-        </article>
-        <hr>
-    </section>
-
     <!-- Gallery Section -->
     <section id="gallery">
         <h2>Gallery</h2>
         <figure>
-            <img src="https://via.placeholder.com/200" alt="Profile Picture">
+            <img src="705f93fe08fc12e0da5f79e28073490f.jpg" height="100" width="100" alt="Profile Picture">
             <figcaption>My Profile Picture</figcaption>
         </figure>
 
